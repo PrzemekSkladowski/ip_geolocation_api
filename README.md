@@ -5,7 +5,7 @@
 - Postgres DB
 
 ### Pull image from github
-`git clone ...`
+`git clone https://github.com/PrzemekSkladowski/ip_geolocation_api/`
 
 ### Set up API key
 In the `/ip_geolocation/.env` file paste your API key for [ipstack.com](ipstack.com):
