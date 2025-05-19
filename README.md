@@ -1,5 +1,13 @@
 ## IP Geolocation API
 
+The app allows fetching, storing and deleting geolocation information for IP addresses and URLs.
+
+Allowed operations: 
+- GET `localhost:8000/geolocation/` - displays all the stored geolocation information,
+- GET `localhost:8000/geolocation/<ip_or_address>` - if IP or URL is already in the database, displays the related information; if it's not, fetches geolocation information from ipstack.com API,
+- DELETE `localhost:8000/geolocation/<ip_or_address>` - removes the information for given IP or URL.
+
+Tech stack:
 - Django
 - Django Rest Framework
 - Postgres DB
