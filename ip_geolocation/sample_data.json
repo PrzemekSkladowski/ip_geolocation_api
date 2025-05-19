@@ -1,0 +1,568 @@
+[
+{
+  "model": "auth.permission",
+  "pk": 1,
+  "fields": {
+    "name": "Can add log entry",
+    "content_type": 1,
+    "codename": "add_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 2,
+  "fields": {
+    "name": "Can change log entry",
+    "content_type": 1,
+    "codename": "change_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 3,
+  "fields": {
+    "name": "Can delete log entry",
+    "content_type": 1,
+    "codename": "delete_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 4,
+  "fields": {
+    "name": "Can view log entry",
+    "content_type": 1,
+    "codename": "view_logentry"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 5,
+  "fields": {
+    "name": "Can add permission",
+    "content_type": 2,
+    "codename": "add_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 6,
+  "fields": {
+    "name": "Can change permission",
+    "content_type": 2,
+    "codename": "change_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 7,
+  "fields": {
+    "name": "Can delete permission",
+    "content_type": 2,
+    "codename": "delete_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 8,
+  "fields": {
+    "name": "Can view permission",
+    "content_type": 2,
+    "codename": "view_permission"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 9,
+  "fields": {
+    "name": "Can add group",
+    "content_type": 3,
+    "codename": "add_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 10,
+  "fields": {
+    "name": "Can change group",
+    "content_type": 3,
+    "codename": "change_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 11,
+  "fields": {
+    "name": "Can delete group",
+    "content_type": 3,
+    "codename": "delete_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 12,
+  "fields": {
+    "name": "Can view group",
+    "content_type": 3,
+    "codename": "view_group"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 13,
+  "fields": {
+    "name": "Can add user",
+    "content_type": 4,
+    "codename": "add_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 14,
+  "fields": {
+    "name": "Can change user",
+    "content_type": 4,
+    "codename": "change_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 15,
+  "fields": {
+    "name": "Can delete user",
+    "content_type": 4,
+    "codename": "delete_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 16,
+  "fields": {
+    "name": "Can view user",
+    "content_type": 4,
+    "codename": "view_user"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 17,
+  "fields": {
+    "name": "Can add content type",
+    "content_type": 5,
+    "codename": "add_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 18,
+  "fields": {
+    "name": "Can change content type",
+    "content_type": 5,
+    "codename": "change_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 19,
+  "fields": {
+    "name": "Can delete content type",
+    "content_type": 5,
+    "codename": "delete_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 20,
+  "fields": {
+    "name": "Can view content type",
+    "content_type": 5,
+    "codename": "view_contenttype"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 21,
+  "fields": {
+    "name": "Can add session",
+    "content_type": 6,
+    "codename": "add_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 22,
+  "fields": {
+    "name": "Can change session",
+    "content_type": 6,
+    "codename": "change_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 23,
+  "fields": {
+    "name": "Can delete session",
+    "content_type": 6,
+    "codename": "delete_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 24,
+  "fields": {
+    "name": "Can view session",
+    "content_type": 6,
+    "codename": "view_session"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 25,
+  "fields": {
+    "name": "Can add geolocation info",
+    "content_type": 7,
+    "codename": "add_geolocationinfo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 26,
+  "fields": {
+    "name": "Can change geolocation info",
+    "content_type": 7,
+    "codename": "change_geolocationinfo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 27,
+  "fields": {
+    "name": "Can delete geolocation info",
+    "content_type": 7,
+    "codename": "delete_geolocationinfo"
+  }
+},
+{
+  "model": "auth.permission",
+  "pk": 28,
+  "fields": {
+    "name": "Can view geolocation info",
+    "content_type": 7,
+    "codename": "view_geolocationinfo"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 1,
+  "fields": {
+    "app_label": "admin",
+    "model": "logentry"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 2,
+  "fields": {
+    "app_label": "auth",
+    "model": "permission"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 3,
+  "fields": {
+    "app_label": "auth",
+    "model": "group"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 4,
+  "fields": {
+    "app_label": "auth",
+    "model": "user"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 5,
+  "fields": {
+    "app_label": "contenttypes",
+    "model": "contenttype"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 6,
+  "fields": {
+    "app_label": "sessions",
+    "model": "session"
+  }
+},
+{
+  "model": "contenttypes.contenttype",
+  "pk": 7,
+  "fields": {
+    "app_label": "ip_geolocation_api",
+    "model": "geolocationinfo"
+  }
+},
+{
+  "model": "ip_geolocation_api.geolocationinfo",
+  "pk": 4,
+  "fields": {
+    "address": "31.0.59.233",
+    "country": "Poland",
+    "address_data": {
+      "ip": "31.0.59.233",
+      "dma": null,
+      "msa": null,
+      "zip": "00-025",
+      "city": "Warszawa",
+      "type": "ipv4",
+      "radius": "64.5987",
+      "latitude": 52.2317008972168,
+      "location": {
+        "is_eu": true,
+        "capital": "Warsaw",
+        "languages": [
+          {
+            "code": "pl",
+            "name": "Polish",
+            "native": "Polski"
+          }
+        ],
+        "geoname_id": 7531926,
+        "calling_code": "48",
+        "country_flag": "https://assets.ipstack.com/flags/pl.svg",
+        "country_flag_emoji": "🇵🇱",
+        "country_flag_emoji_unicode": "U+1F1F5 U+1F1F1"
+      },
+      "longitude": 21.018339157104492,
+      "region_code": "PL",
+      "region_name": "Mazowieckie",
+      "country_code": "PL",
+      "country_name": "Poland",
+      "continent_code": "EU",
+      "continent_name": "Europe",
+      "connection_type": "mobile wireless",
+      "ip_routing_type": "mobile gateway"
+    }
+  }
+},
+{
+  "model": "ip_geolocation_api.geolocationinfo",
+  "pk": 5,
+  "fields": {
+    "address": "rmf24.pl",
+    "country": "Poland",
+    "address_data": {
+      "ip": "217.74.65.23",
+      "dma": null,
+      "msa": null,
+      "zip": "15-001",
+      "city": "Bialystok",
+      "type": "ipv4",
+      "radius": "0",
+      "latitude": 53.11280822753906,
+      "location": {
+        "is_eu": true,
+        "capital": "Warsaw",
+        "languages": [
+          {
+            "code": "pl",
+            "name": "Polish",
+            "native": "Polski"
+          }
+        ],
+        "geoname_id": 7531591,
+        "calling_code": "48",
+        "country_flag": "https://assets.ipstack.com/flags/pl.svg",
+        "country_flag_emoji": "🇵🇱",
+        "country_flag_emoji_unicode": "U+1F1F5 U+1F1F1"
+      },
+      "longitude": 23.189870834350586,
+      "region_code": "PL",
+      "region_name": "Podlaskie",
+      "country_code": "PL",
+      "country_name": "Poland",
+      "continent_code": "EU",
+      "continent_name": "Europe",
+      "connection_type": null,
+      "ip_routing_type": "fixed"
+    }
+  }
+},
+{
+  "model": "ip_geolocation_api.geolocationinfo",
+  "pk": 6,
+  "fields": {
+    "address": "194.0.0.2",
+    "country": "Germany",
+    "address_data": {
+      "ip": "194.0.0.2",
+      "dma": null,
+      "msa": null,
+      "zip": "60311",
+      "city": "Frankfurt Am Main",
+      "type": "ipv4",
+      "radius": "0",
+      "latitude": 50.11090087890625,
+      "location": {
+        "is_eu": true,
+        "capital": "Berlin",
+        "languages": [
+          {
+            "code": "de",
+            "name": "German",
+            "native": "Deutsch"
+          }
+        ],
+        "geoname_id": 6553153,
+        "calling_code": "49",
+        "country_flag": "https://assets.ipstack.com/flags/de.svg",
+        "country_flag_emoji": "🇩🇪",
+        "country_flag_emoji_unicode": "U+1F1E9 U+1F1EA"
+      },
+      "longitude": 8.682100296020508,
+      "region_code": "HE",
+      "region_name": "Hessen",
+      "country_code": "DE",
+      "country_name": "Germany",
+      "continent_code": "EU",
+      "continent_name": "Europe",
+      "connection_type": "tx",
+      "ip_routing_type": "fixed"
+    }
+  }
+},
+{
+  "model": "ip_geolocation_api.geolocationinfo",
+  "pk": 7,
+  "fields": {
+    "address": "rmf.fm",
+    "country": "Poland",
+    "address_data": {
+      "ip": "185.69.193.123",
+      "dma": null,
+      "msa": null,
+      "zip": "00-025",
+      "city": "Warszawa",
+      "type": "ipv4",
+      "radius": "0",
+      "latitude": 52.2317008972168,
+      "location": {
+        "is_eu": true,
+        "capital": "Warsaw",
+        "languages": [
+          {
+            "code": "pl",
+            "name": "Polish",
+            "native": "Polski"
+          }
+        ],
+        "geoname_id": 7531926,
+        "calling_code": "48",
+        "country_flag": "https://assets.ipstack.com/flags/pl.svg",
+        "country_flag_emoji": "🇵🇱",
+        "country_flag_emoji_unicode": "U+1F1F5 U+1F1F1"
+      },
+      "longitude": 21.018339157104492,
+      "region_code": "PL",
+      "region_name": "Mazowieckie",
+      "country_code": "PL",
+      "country_name": "Poland",
+      "continent_code": "EU",
+      "continent_name": "Europe",
+      "connection_type": null,
+      "ip_routing_type": null
+    }
+  }
+},
+{
+  "model": "ip_geolocation_api.geolocationinfo",
+  "pk": 9,
+  "fields": {
+    "address": "148.0.52.3",
+    "country": "Dominican Republic",
+    "address_data": {
+      "ip": "148.0.52.3",
+      "dma": null,
+      "msa": null,
+      "zip": "0100",
+      "city": "Santo Domingo",
+      "type": "ipv4",
+      "radius": "0",
+      "latitude": 18.5,
+      "location": {
+        "is_eu": false,
+        "capital": "Santo Domingo",
+        "languages": [
+          {
+            "code": "es",
+            "name": "Spanish",
+            "native": "Español"
+          }
+        ],
+        "geoname_id": 3492908,
+        "calling_code": "1809,1829,1849",
+        "country_flag": "https://assets.ipstack.com/flags/do.svg",
+        "country_flag_emoji": "🇩🇴",
+        "country_flag_emoji_unicode": "U+1F1E9 U+1F1F4"
+      },
+      "longitude": -69.9832992553711,
+      "region_code": "DO",
+      "region_name": "Distrito Nacional",
+      "country_code": "DO",
+      "country_name": "Dominican Republic",
+      "continent_code": "NA",
+      "continent_name": "North America",
+      "connection_type": "dsl",
+      "ip_routing_type": "fixed"
+    }
+  }
+},
+{
+  "model": "ip_geolocation_api.geolocationinfo",
+  "pk": 10,
+  "fields": {
+    "address": "194.0.10.2",
+    "country": "Austria",
+    "address_data": {
+      "ip": "194.0.10.2",
+      "dma": null,
+      "msa": null,
+      "zip": "1000",
+      "city": "Wien",
+      "type": "ipv4",
+      "radius": "0",
+      "latitude": 48.20861053466797,
+      "location": {
+        "is_eu": true,
+        "capital": "Vienna",
+        "languages": [
+          {
+            "code": "de",
+            "name": "German",
+            "native": "Deutsch"
+          }
+        ],
+        "geoname_id": 2761369,
+        "calling_code": "43",
+        "country_flag": "https://assets.ipstack.com/flags/at.svg",
+        "country_flag_emoji": "🇦🇹",
+        "country_flag_emoji_unicode": "U+1F1E6 U+1F1F9"
+      },
+      "longitude": 16.374170303344727,
+      "region_code": "AT",
+      "region_name": "Wien",
+      "country_code": "AT",
+      "country_name": "Austria",
+      "continent_code": "EU",
+      "continent_name": "Europe",
+      "connection_type": "tx",
+      "ip_routing_type": "fixed"
+    }
+  }
+}
+]
