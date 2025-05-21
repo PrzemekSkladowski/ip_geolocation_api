@@ -41,7 +41,7 @@ Run the following command from the container.
 `python manage.py loaddata sample_data.json`
 
 ### Good to go!
-You can access the API via the following endpoints:
+You can access the API.
 
 You can also create a Django superuser using
 
