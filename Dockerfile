@@ -1,6 +1,6 @@
 FROM python:3.11.12-alpine3.21
 WORKDIR /app
-RUN apk add --no-cache \
+RUN apk add --no-cache --no-check-certificate \
     postgresql-dev \
     gcc \
     musl-dev \
